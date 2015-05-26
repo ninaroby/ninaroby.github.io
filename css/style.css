@@ -1,5 +1,5 @@
 body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'courier new', courier, sans-serif;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
@@ -16,13 +16,27 @@ p {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
+    margin-bottom: 20px;
+}
+
+/*Top section styles*/
+
+section {
+    padding: 30px 0;
+}
+
+a {
+    text-decoration: none;
+    color:#2ec371;
 }
 
 #top {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-align: center;
     background-color: #cbd0d2;
     padding: 100px 0;
-    background: url('../images/hero-bg-dark.jpg') center no-repeat;
+    background: url('../images/hero-bg-dark.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 #top h1 {
@@ -30,9 +44,33 @@ p {
     font-weight: 800;
 }
 
-#top span, h2 {
+#top h2 {
+    color:#fefefe;
+    font-weight: 100;
+}
+
+.skinny {
   color: #fefefe;
   font-weight: 100;
+}
+
+/*Middle section styles*/
+
+.container {
+    width: 970px;
+    margin: 0 auto;
+    font-family: 'courier new', courier, sans-serif;
+    color: #555;
+    font-weight: 300;
+}
+
+.container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50% 50%;
+    float:left;
+    margin-right: 1.5em;
+    margin-top: 1em;
 }
 
 
