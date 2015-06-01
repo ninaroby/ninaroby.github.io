@@ -1,0 +1,466 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"rep",
+				"repeat-x"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"s",
+				"script"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"aling",
+				"text-align"
+			],
+			[
+				"re",
+				"background-repeat"
+			],
+			[
+				"med",
+				"media_icons"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"Lo",
+				"LogoTwist"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"he",
+				"Helvetica"
+			],
+			[
+				"align",
+				"text-align"
+			],
+			[
+				"list-sty",
+				"list-style-type"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"package inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 167.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ninaroby/Desktop/test.github.io/dropdown/dropdown.html",
+		"/Users/ninaroby/Desktop/test.github.io/css/dropdown.css",
+		"/Users/ninaroby/Desktop/test.github.io/css/fullscreen.css",
+		"/Users/ninaroby/Desktop/test.github.io/fullscreen/index_fullscreen.html",
+		"/Users/ninaroby/Desktop/test.github.io/css/style.css",
+		"/Users/ninaroby/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/ninaroby/Desktop/ninaroby.github.io/README.md",
+		"/Users/ninaroby/Desktop/ninaroby.github.io/index.html",
+		"/Users/ninaroby/Desktop/ninaroby.github.io/css/style.css",
+		"/Users/ninaroby/Desktop/ninaroby.github.io/style.css",
+		"/Users/ninaroby/Desktop/ninaroby.github.io/reset.css",
+		"/Users/ninaroby/Desktop/ninaroby.github.io/css/reset.css",
+		"/Clients/Tutorial Center/fcc_wise/pass.html",
+		"/Clients/Tutorial Center/fcc_wise/tutorial.html",
+		"/Clients/Tutorial Center/fcc_wise/styles2.css",
+		"/Clients/Tutorial Center/fcc_wise/writing_reading.html",
+		"/fcc_edits/searchTC.html",
+		"/Users/ninaroby/Desktop/reedley_temp2/css/styles.css",
+		"/tutorapplication/tutorapplication.html",
+		"/tutorapplication/savetutorapplication.php",
+		"/tutorapplication/submitapplication.php",
+		"/tutorapplication/tutor_reg.html",
+		"/tutorapplication/tutorapplication.php",
+		"/tutorapplication/tutorlogin.php",
+		"/tutorapplication/tutorregister.php",
+		"/tutorapplication/uploadrecommendation.php",
+		"/tutorapplication/uploadrecommendation.php.bak",
+		"/tutorapplication/wcapplication.php",
+		"/tutorapplication/tutorapplicationreport.php",
+		"/tutorapplication/thankyou.php",
+		"/tutor_application/tutor_application.php",
+		"/tutorapplication/tutor_application.php",
+		"/tutorapplication/browseapplication.php",
+		"/tutorapplication/mathapplication.php",
+		"/tutor_application/tutor_application.html",
+		"/tutorapplication/index.html",
+		"/tutor_application/images/logo copy.png",
+		"/tutor_application/reedley_updates/tutor_application.html",
+		"/tutor_application/tutor_application2.html",
+		"/Users/ninaroby/Desktop/reedley_temp/css/styles.css",
+		"/Users/ninaroby/Desktop/reedley_temp/index.html",
+		"/Users/ninaroby/Desktop/reedley_temp/tutor_application.html",
+		"/Users/ninaroby/Desktop/reedley_temp/tutorapplication2.html",
+		"/Users/ninaroby/Desktop/reedley_temp/tutor_reg.html",
+		"/Users/ninaroby/Desktop/reedley_temp/submitapplication.html",
+		"/Users/ninaroby/Desktop/reedley_temp/css/form_styles.css",
+		"/Users/ninaroby/Desktop/ninaroby.github.io/usps/index.html",
+		"/Users/ninaroby/Desktop/ninaroby.github.io/usps/css/styles.css",
+		"/Users/ninaroby/Desktop/ninaroby.github.io/ellen_white/services.html",
+		"/Users/ninaroby/Desktop/ninaroby.github.io/ellen_white/index.html",
+		"/Users/ninaroby/Desktop/rcwise2/css/large.css",
+		"/Users/ninaroby/Desktop/rcwise2/css/base.css",
+		"/Users/ninaroby/Desktop/rcwise2/css/medium.css",
+		"/Users/ninaroby/Desktop/rcwise2/wireframe.html",
+		"/Clients/Tutorial Center/fcc_wise/mathtest_prep.html",
+		"/Clients/Tutorial Center/fcc_wise/styles_v2.css",
+		"/Clients/Tutorial Center/fcc_wise/index.html",
+		"/Users/ninaroby/Desktop/ninaroby.github.io/ellen_white/css/reset.css",
+		"/Users/ninaroby/Desktop/ninaroby.github.io/ellen_white/css/custom.css",
+		"/Users/ninaroby/Desktop/rcwise/index.html",
+		"/Users/ninaroby/Desktop/ninaroby.github.io/bootstrap/index.html",
+		"/Users/ninaroby/Desktop/ninaroby.github.io/bootstrap/test.html",
+		"/Users/ninaroby/Desktop/ninaroby.github.io/pure/index.html",
+		"/Users/ninaroby/Desktop/ninaroby.github.io/test2/css/styles.css",
+		"/Users/ninaroby/Desktop/ninaroby.github.io/test2/index2.html",
+		"/Users/ninaroby/Desktop/ninaroby.github.io/css/styles.css",
+		"/Clients/Reedley College/rcwise/index.html",
+		"/Users/ninaroby/Desktop/project/usps/index.html",
+		"/Users/ninaroby/Desktop/project/usps/css/styles.css",
+		"/Users/ninaroby/Desktop/project/test1/css/styles.css",
+		"/Users/ninaroby/Desktop/project/test1/index1.html",
+		"/Users/ninaroby/Desktop/project/test1/index3.html",
+		"/Users/ninaroby/Desktop/project/test1/index.html",
+		"/Users/ninaroby/Desktop/project/index.html",
+		"/Users/ninaroby/Desktop/Portfolio/index.html",
+		"/Users/ninaroby/Desktop/Portfolio/design.html",
+		"/Users/ninaroby/Desktop/Portfolio/css/styles.css",
+		"/Users/ninaroby/Desktop/Portfolio/css/:*.button.green {",
+		"/Animation/css_animations/html5_logo",
+		"/Animation/css_animations/bouncing_clouds.html",
+		"/Users/ninaroby/Desktop/Portfolio/about.html",
+		"/Users/ninaroby/Desktop/Portfolio/contact.html",
+		"/Users/ninaroby/Desktop/Portfolio/thankyou.html",
+		"/Users/ninaroby/Desktop/Portfolio/art.html",
+		"/Users/ninaroby/Desktop/Portfolio/_php/formhandler.php",
+		"/Users/ninaroby/Desktop/Portfolio/php/formhandler.php",
+		"/Users/ninaroby/Documents/clouds.html",
+		"/Users/ninaroby/Desktop/Kirupa_animation/index.html",
+		"/Users/ninaroby/Desktop/Portfolio/min.js",
+		"/Users/ninaroby/Desktop/Portfolio/fancybox/jquery.fancybox-1.3.4.css",
+		"/Users/ninaroby/Desktop/Portfolio/fancybox/jquery.fancybox-1.3.4.js",
+		"/Users/ninaroby/Desktop/image_sprites/index.html",
+		"/Users/ninaroby/Desktop/webSiteRoot/index.html",
+		"/Users/ninaroby/Desktop/webSiteRoot/css/style.css",
+		"/Users/ninaroby/Desktop/webSiteRoot/test/index.html",
+		"/Users/ninaroby/Desktop/webSiteRoot/test/styles.css",
+		"/Users/ninaroby/Desktop/Portfolio/portraits.html"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 99.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"style",
+			"        ",
+			".wireframe #become_a_tutor+section {\n	clear:both;\n}\n",
+			"	#",
+			">",
+			";\n",
+			"a"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 207.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
