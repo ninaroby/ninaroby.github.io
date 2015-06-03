@@ -1,0 +1,11 @@
+var user = {
+    name: "Guest",
+    askName: function() {
+        this.name = prompt("Your name?");
+    },
+    sayHi: function() {
+        alert('Hi, my name is '+this.name);
+    }
+};
+user.askName();
+user.sayHi();

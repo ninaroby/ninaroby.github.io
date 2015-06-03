@@ -1,24 +1,36 @@
+
+body {
+    margin:0;
+}
 header {
+    margin: 0;
+    width:100%;
+    padding: 0 1em;
     display: flex;
     flex-direction:row;
     justify-content: space-between;
+    background-color: #E8B614;
 }
 
 ul {
+    margin: 2em;
     list-style-type: none;
 
 }
 
 li {
     display: inline-block;
-    color: blue;
+    color: #E83400;
     margin-right: 1em;
+    font-family: helvetica, arial;
+    font-size: 1em;
 }
 
 li a {
-    color: blue;
+    text-decoration: none;
+    color: #E83400;
 }
 
 li a:hover {
-    color: red;
+    color: #B5A08C;
 }
