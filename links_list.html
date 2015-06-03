@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        a {
+            display: block;
+            margin: 10px;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        a:hover {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+<div class="links"></div>
+
+<script type="text/javascript">
+    var links = {
+    favorites: ['Facebook', 'https://www.facebook.com/', 'Twitter', 'https://twitter.com/', 'Linkedin', 'https://www.linkedin.com/']
+};
+
+var output = '<ul>';
+
+for (var i = 0; i<links.favorites.length; i+=2) {
+    output+=('<li><a href="' + links.favorites[i+1] + '">' + links.favorites[i] + '</a></li>');
+}
+
+output+= '</ul>';
+
+console.log(output);
+
+var myNode = document.querySelector(".links");
+myNode.innerHTML = output;
+console.log();
+
+</script>
+    
+</body>
+</html>

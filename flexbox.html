@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<header>
+
+<h1>Littewebchair</h1>
+<ul>
+    <li><a id="1" href="#">Home</a></li>
+    <li><a id="2" href="#">About</a></li>
+    <li><a id="3" href="#">Portfolio</a></li>
+    <li><a id="4" href="#">Contact</a></li>
+</ul>
+
+</header>
+
+<script>
+var myListItems = document.querySelectorAll('a');
+    function popUp(event) {
+        if (event.target.id == '1') {
+            alert('You clicked home');
+        } else if (event.target.id == '2') {
+            alert('You clicked About');
+        } else if (event.target.id == '3') {
+            alert('You clicked Portfolio');
+        } else if (event.target.id == '4') {
+            alert('You want to contact me?');
+        } else {
+            alert('not sure what you clicked');
+        }
+    }
+    for (var i = 0; i < myListItems.length; i++) {
+        myListItems[i].addEventListener('click', popUp, false);
+    }
+
+</script>
+
+</body>
+</html>

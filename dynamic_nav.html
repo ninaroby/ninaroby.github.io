@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        nav {
+            display: flex;
+            flex-direction:row;
+            justify-content:space-between;
+        }
+
+        li {
+            display: inline-block;
+            margin: 1em;
+            font-family: Helvetica, Arial;
+            color: green;
+
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+<h1>Main Heading</h1>
+<div id="nav"</div>
+</div>
+<script type="text/javascript">
+var myNav=[
+   'Home',
+   'About',
+   'Portfolio',
+   'Contact'
+];
+var myNode=document.querySelector('#nav');
+var list = document.createElement('ul');
+for (var i=0; i<myNav.length; i++){
+   var item = document.createElement('li');
+   item.innerHTML = myNav[i];
+   item.id = i+1;
+   list.appendChild(item);
+}
+myNode.appendChild(list);
+
+var myListItems = document.querySelectorAll('li');
+function popUp(event){
+   if (event.target.id=='1') {
+       alert('You clicked home');
+   } else if(event.target.id=='2'){
+       alert('You clicked About');
+   } else if(event.target.id=='3'){
+       alert('you clicked info 003');
+   } else{
+       alert('you clicked info 004');
+   }
+}
+
+</script>
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style type="text/css">
+        .list {
+            color:blue;
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+
+<h1>What is a planet</h1>
+
+<ul>
+    <li>Earth</li>
+    <li>Mercury</li>
+    <li>Venus</li>
+    <li>Mars</li>
+    <li>Jupiter</li>
+    <li>Uranus</li>
+    <li>Neptune</li>
+</ul>
+
+<script>
+    var myNode = document.querySelectorAll('ul>li');
+    for(var i in myNode) {
+
+        myNode[i].className = 'list';
+    }
+
+</script>
+    
+</body>
+</html>
+
+
+

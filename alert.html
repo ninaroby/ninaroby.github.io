@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <style>
+            * {
+                box-sizing: border-box;
+                transition: 0.3s ease;
+                -webkit-transition: 0.3s ease;
+                font-family: 'San Francisco Display', sans-serif;
+            }
+            body, main, figure, ul { margin: 0; }
+            ul { list-style: none; }
+            li { padding: 0 15px; }
+            a { text-decoration: none; color: inherit; }
+            a:hover { text-decoration: underline; }
+            header, ul {
+                background: #cecece;
+                display: flex;
+                display: -webkit-flex;
+                justify-content: space-between;
+                -webkit-justify-content: space-between;
+                align-items: center;
+                -webkit-align-items: center;
+            }
+            header { padding: 10px 15px; }
+        </style>
+    </head>
+    <body>
+        
+        <header>
+            <h3>nVision.io</h3>
+            <nav>
+                <!-- <ul>
+                    <li><a href='#'>Home</a></li>
+                    <li><a href='#'>About</a></li>
+                    <li><a href='#'>Stuff</a></li>
+                    <li><a href='#'>More Stuff!</a></li>
+                </ul> -->
+            </nav>
+        </header>
+        
+        <script src="alerts.js"></script>
+    </body>
+</html>
+```
+
+Julian Coleman [9:23 AM]
+```
+//  alerts.js
+var linkList = ['Home','About','Stuff','More Stuff!']
+var nav = document.querySelector('nav')
+var result = '<ul>\n\t'
+for (var i in linkList) {
+    result += '<li><a href="#">' + linkList[i] + '</a></li>\n\t'
+}
+result += '</ul>'
+nav.innerHTML = result
+
+var a = document.querySelectorAll('nav li')
+for (var i in a) {
+    a[i].addEventListener('click', function (e) {
+        alert('You clicked ' + e.target.innerHTML)
+    }, false)
+}

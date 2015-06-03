@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style type="text/css">
+        body {
+            background: url(images/ryan-hat.png) no-repeat center center fixed;
+            background-size: cover;
+
+        }
+    </style>
+</head>
+<body>
+
+<script>
+    var dayImages = ['images/pennyportrait_square.jpg', 'images/ryan-hat.png', 'images/pennyportrait_square.jpg','images/mbe-logo.png', 'images/pennyportrait_square.jpg', 'images/pennyportrait_square.jpg', 'images/pennyportrait_square.jpg'];
+
+    var thisDate = new Date();
+    var today = thisDate.getDay();
+    var myNode = document.querySelector('body');
+    var thisImage = 'url(" ' + dayImages[today] + ' ")';
+    myNode.style.backgroundImage = (thisImage);
+</script>
+    
+</body>
+</html>

@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+li {
+    display: inline-block;
+    color: blue;
+    margin-right: 1em;
+}
+
+li a {
+    color: blue;
+}
+
+li a:hover {
+    color: red;
+}

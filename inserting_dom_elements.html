@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+    img {
+        margin: 20px;
+        border-radius: 50% 50%;
+    }
+
+    </style>
+</head>
+<body>
+
+    <div class="item"></div>
+
+    <script>
+
+    var myNode = document.querySelector('.item');
+    var myImages = ['http://lorempixel.com/120/120/abstract/1',
+                     'http://lorempixel.com/120/120/abstract/2', 
+                     'http://lorempixel.com/120/120/abstract/3', 
+                     'http://lorempixel.com/120/120/abstract/4', 
+                     'http://lorempixel.com/120/120/abstract/5', 
+                     'http://lorempixel.com/120/120/abstract/6'
+];
+
+
+
+    for (var i = 0; i<myImages.length; i++) {
+
+    var myElement = document.createElement('img');
+            myElement.src = myImages[i];
+            myElement.alt = 'abstract ' + (i+1);
+            myNode.appendChild(myElement);
+
+}
+</script>
+    
+</body>
+</html>
