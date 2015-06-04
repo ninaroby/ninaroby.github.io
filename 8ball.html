@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <style type="text/css">
+
+            * {
+                margin:0;
+                padding:0;
+            }
+
+            section {
+                width:80%;
+                display: flex;
+                flex-direction: column;
+                margin:auto;
+            }
+
+            div {
+                display: flex;
+                flex-direction:row;
+                margin: auto;
+            }
+
+            img {
+                max-width: 200px;
+                max-height: 200px;
+                margin: 2em;
+            }
+
+            header {
+                background-color: red;
+                margin: 0;
+                text-align: center;
+                padding: 1em;
+            }
+
+            h1 {
+                font-family: Helvetica, arial;
+            }
+            
+        </style>
+
+    </head>
+
+    <body>
+
+        <header>
+            <h1>8 Ball</h1>
+        </header>
+        <section>
+                
+            <div>
+                <img id="imgball" src="http://planetoftheweb.com/i/8ball/empty.png">
+            </div>
+
+            <div>
+            <input  id = "text" type ="text" name="ask">
+            <button id = "enter">Submit</button> 
+            </div>
+
+
+        </section>
+
+        <script type="text/javascript">
+            
+            var img = ['http://planetoftheweb.com/i/8ball/empty.png',
+                        'http://planetoftheweb.com/i/8ball/19.png',
+                        'http://planetoftheweb.com/i/8ball/18.png', 
+                        'http://planetoftheweb.com/i/8ball/17.png',
+                        'http://planetoftheweb.com/i/8ball/16.png',
+                        'http://planetoftheweb.com/i/8ball/15.png',
+                        'http://planetoftheweb.com/i/8ball/14.png',
+                        'http://planetoftheweb.com/i/8ball/13.png',
+                        'http://planetoftheweb.com/i/8ball/12.png',
+                        'http://planetoftheweb.com/i/8ball/11.png',
+                        'http://planetoftheweb.com/i/8ball/10.png',
+                        'http://planetoftheweb.com/i/8ball/9.png',
+                        'http://planetoftheweb.com/i/8ball/8.png',
+                        'http://planetoftheweb.com/i/8ball/7.png',
+                        'http://planetoftheweb.com/i/8ball/6.png',
+                        'http://planetoftheweb.com/i/8ball/5.png',
+                        'http://planetoftheweb.com/i/8ball/4.png',
+                        'http://planetoftheweb.com/i/8ball/3.png',
+                        'http://planetoftheweb.com/i/8ball/2.png',
+                        'http://planetoftheweb.com/i/8ball/1.png',
+                        'http://planetoftheweb.com/i/8ball/0.png']
+
+
+            document.querySelector('#enter').addEventListener('click', function() {
+
+            var myNode = document.querySelector('#imgball');
+            var index = Math.round(Math.random()*(img.length - 1) );
+            if (index === 0) index++;
+
+            var text = document.querySelector('#text');
+
+            if (text.value === "") {
+            alert('Please Enter a Value');
+            } else {
+            myNode.src = img[index];
+            }
+
+            }, false );
+
+        </script>
+
+    </body>
+</html>

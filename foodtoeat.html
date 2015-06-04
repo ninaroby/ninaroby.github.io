@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<style type="text/css">
+    main {
+        width: 500px;
+    }
+    img {
+        width: 150px;
+        height: 150px;
+        margin: 0 4px;
+    }
+</style>
+
+<body>
+
+
+<h1>Eliminate the undesirables</h1>
+
+<main>
+
+</main>
+
+
+<script type="text/javascript">
+
+var food = ['http://planetoftheweb.com/i/food/mexican.jpg',
+                'http://planetoftheweb.com/i/food/korean.jpg',
+                'http://planetoftheweb.com/i/food/japanese.jpg',
+                'http://planetoftheweb.com/i/food/italian.jpg',
+                'http://planetoftheweb.com/i/food/indian.jpg',
+                'http://planetoftheweb.com/i/food/greek.jpg',
+                'http://planetoftheweb.com/i/food/german.jpg',
+                'http://planetoftheweb.com/i/food/chinese.jpg', 
+                'http://planetoftheweb.com/i/food/american.jpg'];
+var myNode = document.querySelector('main');
+
+
+for(var i = 0; i < (food.length); i++){ //init with images
+    var imgItem = document.createElement('img');
+        imgItem.src = food[i];
+        imgItem.class = 'newclass';
+    myNode.appendChild(imgItem);
+}
+
+document.querySelector('.newclass').addEventListener('click', function() { }, false );
+
+
+
+
+</script>
+    
+</body>
+</html>
