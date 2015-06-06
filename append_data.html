@@ -1,0 +1,38 @@
+<!-- Create a function
+Takes in an object
+Each object has an array of information
+Sends object information to the DOM -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+<script>
+var me = {
+    firstName: 'Nina',
+    age: 49,
+    hobbies: ['mountain biking', 'road biking', 'programming', 'cooking', 'growing things'],
+    favoriteDrinks: ['Coffee', 'Tea', 'Water', 'Wine']
+};
+
+var logMe = (function(a) {
+    if (Object.prototype.toString.call(a) === '[object Object]') {  //  a === {} + {}
+        for (var i in a) {
+            if (Array.isArray(a[i])) {
+                console.log(i + ': ' + a[i].join(', '));
+            } else {
+                console.log(i + ': ' + a[i]);
+            }
+        }
+    }
+})(me);
+
+
+</script>

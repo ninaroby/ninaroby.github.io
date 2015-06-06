@@ -33,35 +33,36 @@
         <header>
             <h3>nVision.io</h3>
             <nav>
-                <!-- <ul>
+                <ul>
                     <li><a href='#'>Home</a></li>
                     <li><a href='#'>About</a></li>
                     <li><a href='#'>Stuff</a></li>
                     <li><a href='#'>More Stuff!</a></li>
-                </ul> -->
+                </ul>
             </nav>
         </header>
         
-        <script src="alerts.js"></script>
+        <script>
+    <!--alerts.js-->
+    
+    var linkList = ['Home','About','Stuff','More Stuff!']
+    var nav = document.querySelector('nav')
+    var result = '<ul>\n\t'
+    for (var i in linkList) {
+        result += '<li><a href="#">' + linkList[i] + '</a></li>\n\t'
+    }
+    result += '</ul>'
+    nav.innerHTML = result
+
+    var a = document.querySelectorAll('nav li')
+    for (var i in a) {
+        a[i].addEventListener('click', function (e) {
+            alert('You clicked ' + e.target.innerHTML)
+        }, false)
+    }
+
+        </script>
     </body>
 </html>
-```
 
-Julian Coleman [9:23 AM]
-```
-//  alerts.js
-var linkList = ['Home','About','Stuff','More Stuff!']
-var nav = document.querySelector('nav')
-var result = '<ul>\n\t'
-for (var i in linkList) {
-    result += '<li><a href="#">' + linkList[i] + '</a></li>\n\t'
-}
-result += '</ul>'
-nav.innerHTML = result
 
-var a = document.querySelectorAll('nav li')
-for (var i in a) {
-    a[i].addEventListener('click', function (e) {
-        alert('You clicked ' + e.target.innerHTML)
-    }, false)
-}

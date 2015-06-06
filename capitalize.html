@@ -1,0 +1,36 @@
+Write a function
+Takes in a string
+Returns a capitalized string
+Following 2 AP Style rules
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+<string>
+var sentence = 'grumpy wizards make toxic brew for the evil queen and jack'
+
+function ap_style(str) {
+    var split = str.split(' ')
+    for (var i in split) {
+        if(split[i].length >= 4) {
+            split[i] = split[i].charAt(0).toUpperCase() + split[i].slice(1).toLowerCase()
+        }
+    }
+    return split.join(' ')
+}
+console.log('Before:\n' + sentence)
+console.log('After:\n' + ap_style(sentence))
+</string>
+    
+</body>
+</html>
+
+
+
+
+
