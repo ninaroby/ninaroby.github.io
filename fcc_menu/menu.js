@@ -1,3 +1,3 @@
 var links = {
-    mainMenu: []
+    mainMenu: ['http://fccwise.fresnocitycollege.edu/fccwise2/tutorial.html',]
 }
