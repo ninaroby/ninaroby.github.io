@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Little Web Chair</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <style type="text/css">
+
+/*
+=================================================
+Heading and Greeting Styles
+=================================================
+*/
+
+#greetings h1, h3, p {
+    float: left;
+    clear: left;
+    width: 320px;
+    background-color: rgba(255, 255, 255, 0.60);
+    color: #5a514c;
+    text-align: center;}
+
+#greetings h1 {
+    margin: 100px 0 0 50px;
+    height: 175px;
+    background-image: url("../images/littlewebchair_logo.png");
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    border-top: 1px solid #bcbdc0;
+    border-left: 1px solid #bcbdc0;
+    border-right: 1px solid #bcbdc0;
+}
+
+#greetings h3 {
+    margin: 0 0 0 50px;
+    padding: 25px 0 0 0;
+    font-family: 'Gotham A', 'Gotham B', Helvetica, Arial, sans-serif;
+    font-size: 1.8em;
+    font-weight: 400;
+    line-height: 0.80em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    border-left: 1px solid #bcbdc0;
+    border-right: 1px solid #bcbdc0;}
+
+#greetings p {
+    margin: 0 0 0 50px;
+    padding: 30px 0 25px 0;
+    font-weight: bold;
+    text-align: center;
+    border-right: 1px solid #bcbdc0;
+    border-bottom: 1px solid #bcbdc0;
+    border-left: 1px solid #bcbdc0;}
+#greetings a {
+    text-decoration: none;
+    color: #D83E24;
+    transition: color 150ms ease-in-out;
+}
+
+#greetings a:hover {
+    color:#5a514c
+}
+</style>
+  </head>
+  <body>
+     <nav class="nav">
+        <ul>
+          <ul>
+              <li><a class="current" href="#">Home</a></li>
+              <li><a href="resume.html">Resume</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+          </ul>
+        </ul>
+    </nav>
+
+    <div id="greetings">
+      <h1>littlewebchair.com</h1>
+      <script src="js/greetings.js"></script>
+      <p>Contact me at <a href="mailto:ninaroby@littlewebchair.com">ninaroby@littlewebchair.com</a></p>
+    </div>
+
+  </body>
+</html>
